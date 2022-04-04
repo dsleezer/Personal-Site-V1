@@ -1,0 +1,55 @@
+body,
+html {
+  height: 100%;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../assets/claudio-schwarz-yx8f0e74pZM-unsplash.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+.my-10 {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+/* .bg-dark {
+  background-image: linear-gradient(#101820, #233547, #101820) !important;
+}
+.bg-primary {
+  background-image: linear-gradient(#576d82, #97acc2, #576d82 )  !important;
+}
+.bg-secondary {
+  background-color: #648488 !important;
+}
+.bg-body {
+  background-color: #648488 !important;
+}
+.bg-nav .active {
+  background-image: linear-gradient(#293847, #34475a, #293847) !important;
+}
+.bg-nav  {
+  background-image: linear-gradient(#101820, #233547, #101820);
+}
+.opacity-98 {
+  opacity: .98;
+}
+.btn-primary {
+  color: #fff !important;
+  background-color: #648488 !important;
+  border-color: #648488 !important;
+} */
